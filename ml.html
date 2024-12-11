@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top Up Game - Mobile Legends</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+  </head>
+  <body class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <!-- Header -->
+    <header class="bg-blue-500 shadow-md sticky top-0 z-50">
+      <div
+        class="container mx-auto px-4 py-3 flex justify-between items-center"
+      >
+        <div class="flex items-center">
+          <h1 class="text-white text-2xl font-bold">TOP UP WIR</h1>
+        </div>
+        <nav>
+          <ul class="flex space-x-4">
+            <li>
+              <a
+                href="index.html"
+                class="text-white hover:text-gray-800 transition duration-300"
+                >Beranda</a
+              >
+            </li>
+            <li>
+              <a
+                href="ml.html"
+                class="text-white hover:text-gray-800 transition duration-300 text-blue-600"
+                >Mobile Legends</a
+              >
+            </li>
+            <li>
+              <a
+                href="pubg.html"
+                class="text-white hover:text-gray-800 transition duration-300"
+                >PUBG</a
+              >
+            </li>
+            <li>
+              <a
+                href="co.html"
+                class="text-white hover:text-gray-800 transition duration-300"
+                >Pembayaran</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- banner -->
+    <section class="container mx-auto px-4 mt-8">
+      <div
+        class="bg-blue-500 text-white p-6 rounded-lg flex items-center justify-between shadow-lg"
+      >
+        <div class="w-2/3 pr-6">
+          <h1 class="text-3xl font-bold mb-4">Top Up Diamond Mobile Legends</h1>
+          <p class="mb-4 text-lg">
+            Dapatkan Diamond Mobile Legends dengan cepat, aman, dan mudah!
+          </p>
+          <a
+            href="#produk"
+            class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-blue-100 transition duration-300 inline-block"
+          >
+            Pilih Nominal
+          </a>
+        </div>
+        <img
+          src="img/logo ml.jpg"
+          alt="Mobile Legends Banner"
+          class="w-1/3 rounded-lg shadow-md"
+        />
+      </div>
+    </section>
+
+    <!-- ID dan Server Input -->
+    <section class="container mx-auto px-4 mt-6">
+      <div class="bg-white rounded-lg shadow-md p-6">
+        <h2 class="text-2xl font-bold mb-4 text-center">
+          Masukkan ID dan Server
+        </h2>
+        <form class="max-w-xl mx-auto">
+          <div class="grid md:grid-cols-2 gap-6">
+            <div>
+              <label
+                for="player-id"
+                class="block text-gray-700 font-semibold mb-2"
+              >
+                ID Player
+              </label>
+              <input
+                type="text"
+                id="player-id"
+                placeholder="123456789"
+                class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
+              />
+              <p class="text-sm text-gray-600 mt-1">
+                Dapat ditemukan di profil game Anda
+              </p>
+            </div>
+            <div>
+              <label
+                for="server"
+                class="block text-gray-700 font-semibold mb-2"
+              >
+                SERVER
+              </label>
+              <input
+                type="text"
+                id="server"
+                placeholder="1234"
+                class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
+              />
+              <p class="text-sm text-gray-600 mt-1">
+                Dapat ditemukan di profil game Anda
+              </p>
+            </div>
+          </div>
+
+          <button
+            type="submit"
+            class="w-full mt-6 bg-blue-500 text-white py-3 rounded-lg hover:bg-blue-600 transition duration-300 font-semibold"
+          >
+            Lanjutkan
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Nominal Diamond -->
+    <section id="produk" class="container mx-auto px-4 mt-8">
+      <h2 class="text-2xl font-bold mb-6 text-center">Pilih Nominal Diamond</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div
+          class="bg-white rounded-lg shadow-md p-4 flex items-center hover:shadow-xl transition duration-300"
+        >
+          <img
+            src="img/diamond.png"
+            alt="50 Diamond"
+            class="w-24 h-24 mr-6 rounded-lg"
+          />
+          <div class="flex-grow">
+            <h3 class="text-xl font-semibold mb-2">50 Diamond</h3>
+            <p class="text-gray-600 mb-4">Rp 15.000</p>
+            <a
+              href="co.html"
+              class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300"
+            >
+              Beli Sekarang
+            </a>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-lg shadow-md p-4 flex items-center hover:shadow-xl transition duration-300"
+        >
+          <img
+            src="img/diamond.png"
+            alt="110 Diamond"
+            class="w-24 h-24 mr-6 rounded-lg"
+          />
+          <div class="flex-grow">
+            <h3 class="text-xl font-semibold mb-2">110 Diamond</h3>
+            <p class="text-gray-600 mb-4">Rp 35.000</p>
+            <a
+              href="co.html"
+              class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300"
+            >
+              Beli Sekarang
+            </a>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-lg shadow-md p-4 flex items-center hover:shadow-xl transition duration-300"
+        >
+          <img
+            src="img/diamond.png"
+            alt="220 Diamond"
+            class="w-24 h-24 mr-6 rounded-lg"
+          />
+          <div class="flex-grow">
+            <h3 class="text-xl font-semibold mb-2">220 Diamond</h3>
+            <p class="text-gray-600 mb-4">Rp 70.000</p>
+            <a
+              href="co.html"
+              class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300"
+            >
+              Beli Sekarang
+            </a>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-lg shadow-md p-4 flex items-center hover:shadow-xl transition duration-300"
+        >
+          <img
+            src="img/diamond.png"
+            alt="340 Diamond"
+            class="w-24 h-24 mr-6 rounded-lg"
+          />
+          <div class="flex-grow">
+            <h3 class="text-xl font-semibold mb-2">340 Diamond</h3>
+            <p class="text-gray-600 mb-4">Rp 100.000</p>
+            <a
+              href="co.html"
+              class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300"
+            >
+              Beli Sekarang
+            </a>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-lg shadow-md p-4 flex items-center hover:shadow-xl transition duration-300"
+        >
+          <img
+            src="img/diamond.png"
+            alt="520 Diamond"
+            class="w-24 h-24 mr-6 rounded-lg"
+          />
+          <div class="flex-grow">
+            <h3 class="text-xl font-semibold mb-2">520 Diamond</h3>
+            <p class="text-gray-600 mb-4">Rp 150.000</p>
+            <a
+              href="co.html"
+              class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300"
+            >
+              Beli Sekarang
+            </a>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-lg shadow-md p-4 flex items-center hover:shadow-xl transition duration-300"
+        >
+
+    </section>
+    <!-- Cara Top Up -->
+    <section
+      class="container mx-auto px-4 mt-8 bg-white rounded-lg shadow-md p-6"
+    >
+      <h2 class="text-2xl font-bold mb-6 text-center">
+        Cara Top Up Diamond Mobile Legends
+      </h2>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div
+          class="bg-gray-100 p-4 rounded-lg hover:bg-blue-50 transition duration-300"
+        >
+          <h3 class="font-semibold mb-2">1. Pilih Nominal</h3>
+          <p class="text-gray-600">Pilih jumlah diamond yang ingin dibeli</p>
+        </div>
+        <div
+          class="bg-gray-100 p-4 rounded-lg hover:bg-blue-50 transition duration-300"
+        >
+          <h3 class="font-semibold mb-2">2. Masukkan ID</h3>
+          <p class="text-gray-600">
+            Masukkan ID Mobile Legends Anda dengan benar
+          </p>
+        </div>
+        <div
+          class="bg-gray-100 p-4 rounded-lg hover:bg-blue-50 transition duration-300"
+        >
+          <h3 class="font-semibold mb-2">3. Bayar & Selesai</h3>
+          <p class="text-gray-600">
+            Lakukan pembayaran dan diamond akan segera masuk
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-8">
+      <div
+        class="container mx-auto px-4 py-8 flex justify-between items-center"
+      >
+        <div>
+          <h1 class="text-white text-2xl font-bold">TOP UP WIR</h1>        </div>
+        <div class="flex space-x-4">
+          <a
+            href="#"
+            class="hover:text-blue-400 transition duration-300"
+            >Privacy Policy</a
+          >
+          <a
+            href="#"
+            class="hover:text-blue-400 transition duration-300"
+            >Terms & Conditions</a
+          >
+          <a
+            href="#"
+            class="hover:text-blue-400 transition duration-300"
+            >Kontak</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
